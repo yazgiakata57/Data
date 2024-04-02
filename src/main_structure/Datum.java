@@ -1,19 +1,16 @@
 package main_structure;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Datum {
-    ArrayList<ArrayList> listOfLists;
     // make listOfLists an argument
     Datum datum;
     //similar to expression
     public void Datum(){
 
     }
-    public void updateListOfLists(ArrayList<ArrayList> listOfLists){
-        this.listOfLists=listOfLists;
-    }
-    public void sigmaFilter(int column_int, Datum val, Datum num_indicator){
+    public void sigmaFilter(HashMap<String, ArrayList> columnsHash, ArrayList<ArrayList> listOfLists, String column, Datum val, Datum num_indicator){
 
     }
 

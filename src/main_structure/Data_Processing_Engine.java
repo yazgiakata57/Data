@@ -56,19 +56,18 @@ public class Data_Processing_Engine {
     public ArrayList projection(String attribute){
         return columnsHash.get(attribute);
     }
-    public void selection(String attribute, ){
-
+    public void selection(String attribute ){
     }
 
-    public void piMainFilter(Datum column, Datum val, int datum_type ){
-        int column_int=0;
-        //if you are filtering by the string in the given column
-        if (datum_type==0){
-            DatumString data_edited= new DatumString();
-            data_edited.updateListOfLists(listOfLists);
-            data_edited.sigmaFilter(column_int,val,new Datum());
-        }
-    }
+//    public void piMainFilter(Datum column, Datum val, int datum_type ){
+//        int column_int=0;
+//        //if you are filtering by the string in the given column
+//        if (datum_type==0){
+//            DatumString data_edited= new DatumString();
+//            data_edited.updateListOfLists(listOfLists);
+//            data_edited.sigmaFilter(column_int,val,new Datum());
+//        }
+//    }
 
     //how do we apply this for integers or doubles//TYPEESSSSSS
     //DO TYPECASTING FOR THIS
