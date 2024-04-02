@@ -56,39 +56,10 @@ public class Data_Processing_Engine {
     public ArrayList projection(String attribute){
         return columnsHash.get(attribute);
     }
-    public void selection(String attribute ){
+    //integrate projection here and get started with or and stuff
+    public void selection(String attribute,Condition condition ){
+        ArrayList arg=projection(attribute);
+        Datum ds= condition.returnType();
+        ds.sigmaFilter(arg, listOfLists, condition.val, condition.num_indicator);
     }
-
-//    public void piMainFilter(Datum column, Datum val, int datum_type ){
-//        int column_int=0;
-//        //if you are filtering by the string in the given column
-//        if (datum_type==0){
-//            DatumString data_edited= new DatumString();
-//            data_edited.updateListOfLists(listOfLists);
-//            data_edited.sigmaFilter(column_int,val,new Datum());
-//        }
-//    }
-
-    //how do we apply this for integers or doubles//TYPEESSSSSS
-    //DO TYPECASTING FOR THIS
-//    public ArrayList<ArrayList> piStrFilter(String column, String val){
-//        ArrayList<ArrayList> ret_val = new ArrayList<>();
-//        Integer column_int= intOfColumn.get(column);
-//
-//        for (ArrayList row:listOfLists){
-//            if (row.get(column_int).toString().equalsIgnoreCase(val)){
-//                ret_val.add(row);
-//            }
-//        }
-//        return ret_val;
-//    }
-//    public ArrayList<ArrayList> sigma(String column){
-//        ArrayList<ArrayList> ret_val = new ArrayList<>();
-//        Integer column_int= intOfColumn.get(column);
-//
-//        for (ArrayList row:listOfLists){
-//            ret_val.add((ArrayList)row.get(column_int));
-//        }
-//        return ret_val;
-//    }
 }

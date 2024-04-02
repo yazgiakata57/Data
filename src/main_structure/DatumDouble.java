@@ -8,7 +8,7 @@ public class DatumDouble extends Datum {
     public double epsilon = 0.0001;
 
     @Override
-    public void sigmaFilter(HashMap<String, ArrayList> columnsHash, ArrayList<ArrayList> listOfLists, String column, Datum val, Datum num_indicator) {
+    public void sigmaFilter(ArrayList arg, ArrayList<ArrayList> listOfLists, Datum val, Datum num_indicator) {
         //if num indicator>1 take the strictly greater than threshold/val
         //if num indicator 1 take the greater than or equal to threshold/val
         //if num indicator 0 take the greater than or equal to threshold/val
@@ -20,36 +20,34 @@ public class DatumDouble extends Datum {
         int num_indicator_int = Integer.parseInt(num_indicator.toString());
 
         if (num_indicator_int > 1) {
-            sigmaFilterHelperStrictlyGreater( columnsHash, listOfLists, column, threshold);
+            sigmaFilterHelperStrictlyGreater( arg, listOfLists, threshold);
         } else if (num_indicator_int == 1) {
-            sigmaFilterHelperGreater(columnsHash, listOfLists, column, threshold);
+            sigmaFilterHelperGreater(arg, listOfLists, threshold);
         } else if (num_indicator_int == 0) {
-            sigmaFilterHelperEqual(columnsHash, listOfLists, column, threshold);
+            sigmaFilterHelperEqual(arg, listOfLists, threshold);
         } else if (num_indicator_int == -1) {
-            sigmaFilterHelperLess(columnsHash, listOfLists, column, threshold);
+            sigmaFilterHelperLess(arg, listOfLists, threshold);
         } else {
-            sigmaFilterHelperStrictlyLess(columnsHash, listOfLists, column, threshold);
+            sigmaFilterHelperStrictlyLess(arg, listOfLists, threshold);
         }
 
     }
-    public void sigmaFilterHelperStrictlyGreater(HashMap<String, ArrayList> columnsHash, ArrayList<ArrayList> listOfLists, String column, double threshold) {
+    public void sigmaFilterHelperStrictlyGreater(ArrayList arg, ArrayList<ArrayList> listOfLists, double threshold) {
         ArrayList<ArrayList> ret_val= new ArrayList<>();
         //get the specific column
-        ArrayList<Double> values = columnsHash.get(column);
-        for (int a=0; a<values.size();a++) {
-            Double value= values.get(a);
+        for (int a=0; a<arg.size();a++) {
+            Double value= (Double) arg.get(a);
             if (value > threshold) {
                 ret_val.add(listOfLists.get(a));
             }
         }
     }
 
-    public void sigmaFilterHelperGreater(HashMap<String, ArrayList> columnsHash, ArrayList<ArrayList> listOfLists, String column, double threshold) {
+    public void sigmaFilterHelperGreater(ArrayList arg, ArrayList<ArrayList> listOfLists, double threshold) {
         ArrayList<ArrayList> ret_val= new ArrayList<>();
         //get the specific column
-        ArrayList<Double> values = columnsHash.get(column);
-        for (int a=0; a<values.size();a++) {
-            Double value= values.get(a);
+        for (int a=0; a<arg.size();a++) {
+            Double value= (Double) arg.get(a);
             if (value > threshold) {
                 ret_val.add(listOfLists.get(a));
             }else if(Math.abs(value-threshold)<epsilon){
@@ -58,24 +56,22 @@ public class DatumDouble extends Datum {
     }
     }
 
-    public void sigmaFilterHelperEqual(HashMap<String, ArrayList> columnsHash, ArrayList<ArrayList> listOfLists, String column, double threshold) {
+    public void sigmaFilterHelperEqual(ArrayList arg, ArrayList<ArrayList> listOfLists, double threshold) {
         ArrayList<ArrayList> ret_val= new ArrayList<>();
         //get the specific column
-        ArrayList<Double> values = columnsHash.get(column);
-        for (int a=0; a<values.size();a++) {
-            Double value= values.get(a);
+        for (int a=0; a<arg.size();a++) {
+            Double value= (Double) arg.get(a);
             if(Math.abs(value-threshold)<epsilon){
                 ret_val.add(listOfLists.get(a));
             }
         }
     }
 
-    public void sigmaFilterHelperLess(HashMap<String, ArrayList> columnsHash, ArrayList<ArrayList> listOfLists, String column, double threshold) {
+    public void sigmaFilterHelperLess(ArrayList arg, ArrayList<ArrayList> listOfLists, double threshold) {
         ArrayList<ArrayList> ret_val= new ArrayList<>();
         //get the specific column
-        ArrayList<Double> values = columnsHash.get(column);
-        for (int a=0; a<values.size();a++) {
-            Double value= values.get(a);
+        for (int a=0; a<arg.size();a++) {
+            Double value= (Double) arg.get(a);
             if (value < threshold) {
                 ret_val.add(listOfLists.get(a));
             }else if(Math.abs(value-threshold)<epsilon){
@@ -84,12 +80,11 @@ public class DatumDouble extends Datum {
         }
     }
 
-    public void sigmaFilterHelperStrictlyLess(HashMap<String, ArrayList> columnsHash, ArrayList<ArrayList> listOfLists, String column, double threshold) {
+    public void sigmaFilterHelperStrictlyLess(ArrayList arg, ArrayList<ArrayList> listOfLists,  double threshold) {
         ArrayList<ArrayList> ret_val= new ArrayList<>();
         //get the specific column
-        ArrayList<Double> values = columnsHash.get(column);
-        for (int a=0; a<values.size();a++) {
-            Double value= values.get(a);
+        for (int a=0; a<arg.size();a++) {
+            Double value= (Double) arg.get(a);
             if (value < threshold) {
                 ret_val.add(listOfLists.get(a));
             }
