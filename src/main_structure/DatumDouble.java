@@ -32,6 +32,7 @@ public class DatumDouble extends Datum {
         }
 
     }
+    // arg would be the column of the attributes
     public void sigmaFilterHelperStrictlyGreater(ArrayList arg, ArrayList<ArrayList> listOfLists, double threshold) {
         ArrayList<ArrayList> ret_val= new ArrayList<>();
         //get the specific column

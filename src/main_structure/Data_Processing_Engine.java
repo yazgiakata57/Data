@@ -56,6 +56,7 @@ public class Data_Processing_Engine {
     public ArrayList projection(String attribute){
         return columnsHash.get(attribute);
     }
+
     //integrate projection here and get started with or and stuff
     public void selection(String attribute,Condition condition ){
         ArrayList arg=projection(attribute);

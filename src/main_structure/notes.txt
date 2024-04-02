@@ -1,0 +1,14 @@
+APRIL 2ND 2024
+how to handle more than one csv file at the same time?
+-pull listOfLists and HashMap into a new class
+-call sigma filter()
+-DataSet filter(DataSet)
+
+a downside: having two different reps of the dataset:
+-define a get method in dataset that gives you the element from the given row and column
+-make dataset and interface and have ColumnOrientedDataset AND RowOrientedDataset and this would allow to pick whatever rep is the most efficient way of implementation
+
+datum is a specific data object:
+-rename datum to expression
+-datum would be a specific data type
+-expression is code, code for transforming  particular data value or doing some sort of computation

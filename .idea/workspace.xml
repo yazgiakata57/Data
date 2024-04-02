@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="Committing my Data Processing progress">
-      <change afterPath="$PROJECT_DIR$/src/main_structure/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/Data_Processing_Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Data_Processing_Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/Datum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Datum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DatumDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DatumInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DatumString.java" afterDir="false" />
-    </list>
+    <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="Committing my Data Processing progress 2.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +108,7 @@
       <workItem from="1711382993355" duration="10038000" />
       <workItem from="1711466079193" duration="2246000" />
       <workItem from="1711928479323" duration="2626000" />
-      <workItem from="1712034544339" duration="5531000" />
+      <workItem from="1712034544339" duration="5948000" />
     </task>
     <task id="LOCAL-00001" summary="Committing my Data Processing Engine for the first time">
       <created>1709627109767</created>
@@ -146,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712038643974</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Committing my Data Processing progress 2.0">
+      <created>1712040171810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712040171810</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +166,8 @@
     <MESSAGE value="Committing my Data Processing Engine for the first time" />
     <MESSAGE value="Committing my Data Processing Engine" />
     <MESSAGE value="Committing my Data Processing progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committing my Data Processing progress" />
+    <MESSAGE value="Committing my Data Processing progress 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing my Data Processing progress 2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

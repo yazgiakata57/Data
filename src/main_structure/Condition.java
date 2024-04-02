@@ -1,10 +1,10 @@
 package main_structure;
 
 public class Condition {
-
-    public int DATUM_DOUBLE=0;
-    public int DATUM_INTEGER=1;
-    public int DATUM_STRING=2;
+    //by putting static create one of each global variable among all instances of Condition, makes it a global variable
+    public static int DATUM_DOUBLE=0;
+    public static int DATUM_INTEGER=1;
+    public static int DATUM_STRING=2;
     public int data_type;
     public Datum val;
     public Datum num_indicator;
