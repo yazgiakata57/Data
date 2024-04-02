@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import static org.junit.Assert.assertTrue;
 
@@ -23,6 +24,7 @@ public class Testing {
         Data_Processing_Engine dpe=new Data_Processing_Engine();
         dpe.readFile(filename);
         ArrayList<ArrayList> ret_val=dpe.getListOfLists();
+        HashMap<String, ArrayList> aight= dpe.columnsHash;
         System.out.println(ret_val);
     }
 }
