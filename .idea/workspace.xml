@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="Committing my Data Processing progress 2.0">
-      <change afterPath="$PROJECT_DIR$/src/main_structure/ColumnOriented.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_structure/DataSet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_structure/RowOriented.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/Data_Processing_Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Data_Processing_Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/DataSet1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +112,7 @@
       <workItem from="1711466079193" duration="2246000" />
       <workItem from="1711928479323" duration="2626000" />
       <workItem from="1712034544339" duration="8518000" />
-      <workItem from="1713417874767" duration="3049000" />
+      <workItem from="1713417874767" duration="3507000" />
     </task>
     <task id="LOCAL-00001" summary="Committing my Data Processing Engine for the first time">
       <created>1709627109767</created>
@@ -167,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713422232582</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Committing my Data Processing progress 2.0">
+      <created>1713442512860</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713442512860</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
