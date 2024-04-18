@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="Committing my Data Processing progress 2.0" />
+    <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="Committing my Data Processing progress 2.0">
+      <change afterPath="$PROJECT_DIR$/src/main_structure/DataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_structure/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/Data_Processing_Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Data_Processing_Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/Datum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DatumDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DatumInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DatumString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Testing.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +120,8 @@
       <workItem from="1711382993355" duration="10038000" />
       <workItem from="1711466079193" duration="2246000" />
       <workItem from="1711928479323" duration="2626000" />
-      <workItem from="1712034544339" duration="5948000" />
+      <workItem from="1712034544339" duration="8518000" />
+      <workItem from="1713417874767" duration="1329000" />
     </task>
     <task id="LOCAL-00001" summary="Committing my Data Processing Engine for the first time">
       <created>1709627109767</created>
@@ -145,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712040171810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Committing my Data Processing progress 2.0">
+      <created>1712072178031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712072178031</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

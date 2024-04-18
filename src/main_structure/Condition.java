@@ -6,15 +6,14 @@ public class Condition {
     public static int DATUM_INTEGER=1;
     public static int DATUM_STRING=2;
     public int data_type;
-    public Datum val;
-    public Datum num_indicator;
-
-    Condition(int data_type, Datum val, Datum num_indicator){
+    public Expression val;
+    public Expression num_indicator;
+    Condition(int data_type, Expression val, Expression num_indicator){
         this.data_type= data_type;
         this.val=val;
         this.num_indicator=num_indicator;
     }
-    public Datum returnType(){
+    public Expression returnType(){
         if (this.data_type==DATUM_DOUBLE){
             return new DatumDouble();
         }else if (this.data_type==DATUM_INTEGER){
@@ -22,6 +21,6 @@ public class Condition {
         }else if (this.data_type==DATUM_STRING){
             return new DatumString();
         }
-        return new Datum();
+        return new Expression();
     }
 }

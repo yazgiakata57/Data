@@ -8,7 +8,7 @@ a downside: having two different reps of the dataset:
 -define a get method in dataset that gives you the element from the given row and column
 -make dataset and interface and have ColumnOrientedDataset AND RowOrientedDataset and this would allow to pick whatever rep is the most efficient way of implementation
 
-datum is a specific data object:
--rename datum to expression
+datum is a specific data object: DONE
+-rename datum to expression (done)
 -datum would be a specific data type
 -expression is code, code for transforming  particular data value or doing some sort of computation

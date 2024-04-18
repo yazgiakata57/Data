@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class DatumDouble extends Datum {
+public class DatumDouble extends Expression {
     public double epsilon = 0.0001;
 
     @Override
-    public void sigmaFilter(ArrayList arg, ArrayList<ArrayList> listOfLists, Datum val, Datum num_indicator) {
+    public void sigmaFilter(ArrayList arg, ArrayList<ArrayList> listOfLists, Expression val, Expression num_indicator) {
         //if num indicator>1 take the strictly greater than threshold/val
         //if num indicator 1 take the greater than or equal to threshold/val
         //if num indicator 0 take the greater than or equal to threshold/val
