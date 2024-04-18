@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="Committing my Data Processing progress 2.0">
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DataSet1.java" beforeDir="false" />
+    <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="Data Processing updated as of April 18">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,7 @@
       <workItem from="1711466079193" duration="2246000" />
       <workItem from="1711928479323" duration="2626000" />
       <workItem from="1712034544339" duration="8518000" />
-      <workItem from="1713417874767" duration="3507000" />
+      <workItem from="1713417874767" duration="6984000" />
     </task>
     <task id="LOCAL-00001" summary="Committing my Data Processing Engine for the first time">
       <created>1709627109767</created>
@@ -170,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713442512860</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Data Processing updated as of April 18">
+      <created>1713442652364</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713442652364</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +200,8 @@
     <MESSAGE value="Committing my Data Processing Engine" />
     <MESSAGE value="Committing my Data Processing progress" />
     <MESSAGE value="Committing my Data Processing progress 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committing my Data Processing progress 2.0" />
+    <MESSAGE value="Data Processing updated as of April 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Processing updated as of April 18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
