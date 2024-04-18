@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="Committing my Data Processing progress 2.0">
-      <change afterPath="$PROJECT_DIR$/src/main_structure/DataSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_structure/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_structure/ColumnOriented.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_structure/DataSet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_structure/RowOriented.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DataSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main_structure/Data_Processing_Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Data_Processing_Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/Datum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DatumDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DatumInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DatumString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Testing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -121,7 +116,7 @@
       <workItem from="1711466079193" duration="2246000" />
       <workItem from="1711928479323" duration="2626000" />
       <workItem from="1712034544339" duration="8518000" />
-      <workItem from="1713417874767" duration="1329000" />
+      <workItem from="1713417874767" duration="3049000" />
     </task>
     <task id="LOCAL-00001" summary="Committing my Data Processing Engine for the first time">
       <created>1709627109767</created>
@@ -165,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712072178031</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Committing my Data Processing progress 2.0">
+      <created>1713422232582</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713422232582</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
