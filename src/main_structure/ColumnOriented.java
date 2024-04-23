@@ -8,8 +8,5 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class ColumnOriented extends DataSet{
-    @Override
-    public void filter(String attribute,Condition condition) {
-        ArrayList arg=this.getHash().get(attribute);
-    }
+
 }
