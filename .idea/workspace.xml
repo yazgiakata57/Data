@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="April 23rd version">
-      <change afterPath="$PROJECT_DIR$/src/main_structure/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_structure/FilterColumns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_structure/FilterRows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_structure/ColumnHashDataset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_structure/DataSet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_structure/RowHashDataset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/ColumnOriented.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/ColumnOriented.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/FilterColumns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/FilterColumns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/FilterRows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/FilterRows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/RowOriented.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/RowOriented.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +123,8 @@
       <workItem from="1711928479323" duration="2626000" />
       <workItem from="1712034544339" duration="8518000" />
       <workItem from="1713417874767" duration="7173000" />
-      <workItem from="1713865267702" duration="5826000" />
+      <workItem from="1713865267702" duration="5843000" />
+      <workItem from="1713884634152" duration="2866000" />
     </task>
     <task id="LOCAL-00001" summary="Committing my Data Processing Engine for the first time">
       <created>1709627109767</created>
@@ -195,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713874003172</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="April 23rd version">
+      <created>1713874323412</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713874323412</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

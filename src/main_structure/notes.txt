@@ -26,3 +26,5 @@ APRIL 18th 2024
 -IMPLEMENT GET
 -DEFINE FILTER IN TERMS OF GET
 -IMPLEMENT A FILTER CLASS class Filter { public this (Dataset, Column, Value) { uses get() to create a brand new dataset; (column=value)}
+
+APRIL 23rd 2024

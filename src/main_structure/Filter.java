@@ -1,5 +1,5 @@
 package main_structure;
 
 public interface Filter {
-    public DataSet filter(DataSet DataSet, String columnString, Expression expression);
+    public DataSet1 filter(DataSet1 DataSet, String columnString, Expression expression);
 }
