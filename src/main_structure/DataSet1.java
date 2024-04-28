@@ -11,8 +11,8 @@ import java.util.HashSet;
 public class DataSet1 {
     public HashMap<Integer, String> intOfColumn = new HashMap<>();
     public HashMap<String, Integer> String_to_Int = new HashMap<>();
-    public HashMap<String, ArrayList> columnsHash = new HashMap<>(); // stores the dataset in relation to the columns
-    public HashMap<Integer, ArrayList> rowsHash = new HashMap<>(); // // stores the dataset in relation to the rows
+    public HashMap<String, ArrayList> columnsHash = new HashMap<>(); // stores the dataset in relation to the columns //Maps Name of Column to the elements of the column
+    public HashMap<Integer, ArrayList> rowsHash = new HashMap<>(); // // stores the dataset in relation to the rows //Maps Integer of row to the elements of the row
 
     String line = "";
     String splitBy = ",";
