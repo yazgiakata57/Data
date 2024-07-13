@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="April 28th , the problem has been with keeping both rows and columns representations updated. Worked on it for the last hour, taking a break now. Added ways of converting HashMaps, next time will update their helper ds', and maybe try to use arrays.">
-      <change afterPath="$PROJECT_DIR$/src/main_structure/dataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_structure/fieldBased.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_structure/recordBased.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/testingFieldBased.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/testingRecordBased.java" afterDir="false" />
+    <list default="true" id="e2b79600-e6ab-4ea7-9868-8e60e5e0554b" name="Changes" comment="July 12th a lot of changes, and tests. A more detailed explanation on the way.">
+      <change afterPath="$PROJECT_DIR$/src/main_structure/Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_structure/DataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/Condition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumDouble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/DatumString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_structure/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/ColumnHashDataset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/DataSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/DataSet1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Where.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/RowHashDataset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/fieldBased.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/fieldBased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_structure/recordBased.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_structure/recordBased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/testingFieldBased.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/testingFieldBased.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <recent name="$PROJECT_DIR$/csv_files" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testingRecordBased.testOne">
+  <component name="RunManager" selected="JUnit.testingFieldBased.testOneTwo">
     <configuration name="Testing.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Processing_Tool_Yazgi" />
       <extension name="coverage">
@@ -117,6 +118,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testingFieldBased.testOneTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Processing_Tool_Yazgi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.testingFieldBased" />
+      <option name="METHOD_NAME" value="testOneTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testingRecordBased.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Processing_Tool_Yazgi" />
       <extension name="coverage">
@@ -135,8 +152,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testingRecordBased.testOne" />
+        <item itemvalue="JUnit.testingFieldBased.testOneTwo" />
         <item itemvalue="JUnit.testingFieldBased.testOne" />
+        <item itemvalue="JUnit.testingRecordBased.testOne" />
         <item itemvalue="JUnit.Testing.test2" />
         <item itemvalue="JUnit.Testing.test1" />
       </list>
@@ -161,7 +179,7 @@
       <workItem from="1713884634152" duration="3514000" />
       <workItem from="1714320238780" duration="4062000" />
       <workItem from="1720271943302" duration="23000" />
-      <workItem from="1720667531142" duration="8995000" />
+      <workItem from="1720667531142" duration="18189000" />
     </task>
     <task id="LOCAL-00001" summary="Committing my Data Processing Engine for the first time">
       <created>1709627109767</created>
@@ -261,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714324311324</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="July 12th a lot of changes, and tests. A more detailed explanation on the way.">
+      <created>1720824670440</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720824670440</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +312,8 @@
     <MESSAGE value="Data Processing updated as of April 18: AFTER MEETING" />
     <MESSAGE value="April 23rd version" />
     <MESSAGE value="April 28th , the problem has been with keeping both rows and columns representations updated. Worked on it for the last hour, taking a break now. Added ways of converting HashMaps, next time will update their helper ds', and maybe try to use arrays." />
-    <option name="LAST_COMMIT_MESSAGE" value="April 28th , the problem has been with keeping both rows and columns representations updated. Worked on it for the last hour, taking a break now. Added ways of converting HashMaps, next time will update their helper ds', and maybe try to use arrays." />
+    <MESSAGE value="July 12th a lot of changes, and tests. A more detailed explanation on the way." />
+    <option name="LAST_COMMIT_MESSAGE" value="July 12th a lot of changes, and tests. A more detailed explanation on the way." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -302,12 +328,28 @@
           <line>80</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/testingFieldBased.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/testingFieldBased.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main_structure/recordBased.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.util.Spliterators$1Adapter" memberName="spliterator" />
         <PinnedItemInfo parentTag="java.lang.String" memberName="hashIsZero" />
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
